@@ -20,7 +20,7 @@ from keras.regularizers import l2
 from keras.optimizers import SGD
 from keras.preprocessing.image import ImageDataGenerator
 
-from not_plus_hcnn_utils import hconv2d, hconv3d, hconv4d, reduce_dim_mean, reduce_mean
+from hCNN_utils import hconv2d, hconv3d, hconv4d, reduce_dim_mean, reduce_mean
 
 import os
 import numpy as np
